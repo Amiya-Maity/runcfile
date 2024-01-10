@@ -1,20 +1,8 @@
-# extension-terminal-sample
+# extension-runcfile
 
-This extension shows how to leverage the extension terminal API stabilized in v1.39 that enables an extension to handle a terminal's input and emit output.
+This extension that helps users with their gcc compiler on wsl (windows subsystem for linux) to run a c file in any directory
 
-## VS Code API
+## Running the command
 
-### `vscode` module
-
-- [window.createTerminal](https://code.visualstudio.com/api/references/vscode-api#window.createTerminal)
-
-### Contribution Points
-
-- [`contributes.commands`](https://code.visualstudio.com/api/references/contribution-points#contributes.commands)
-
-## Running the Sample
-
-- Run `npm install` in terminal to install dependencies
-- Run the `Run Extension` target in the Debug View. This will:
-	- Start a task `npm: watch` to compile the code
-	- Run the extension in a new VS Code window
+Search for `runc` in command section ( ctrl+shift+p ) and click to run
+The best way to use is by assigning a keybinding

@@ -2,7 +2,7 @@
 	"name": "runcfile",
 	"displayName": "runcfile",
 	"description": "A c file runner which runs gcc from wsl",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"publisher": "Amiya",
 	"private": true,
 	"license": "MIT",
